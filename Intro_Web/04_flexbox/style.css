@@ -1,0 +1,15 @@
+.madre {
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+}
+
+a {
+    display: inline-block;
+}
+
+.hijos {
+    border: 2px solid red;
+    height: 25%;
+    width: 25%;
+}

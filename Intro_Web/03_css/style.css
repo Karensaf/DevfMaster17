@@ -1,0 +1,54 @@
+#banner {
+    background-color: #7b2fa7;
+    width: 50%;
+    height: 300px;
+}
+
+#banner .content {
+    background-color: aqua;
+    text-align: center;
+
+}
+
+nav {
+    background-color: aqua;
+    text-align: center;  
+    margin: 0;
+    padding: 0; 
+}
+
+nav li {
+    display: inline-block;
+    font-size: 30px;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#home {
+    background-color: tomato;
+    padding: 50px 100px;
+    border: 3px solid #252925;
+    margin: 30px 15px 60px 50px;
+}
+#dog {
+    background-color: chocolate;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right:  100px;
+    border: 6px dotted #062a06;
+    margin: 30px 15px 60px 50px;
+}
+
+#cat {
+    background-image: url(img/perritos.jpg);
+}
+
+#horse {
+    background-color: blue;
+    color: orange;
+    display: inline;
+}

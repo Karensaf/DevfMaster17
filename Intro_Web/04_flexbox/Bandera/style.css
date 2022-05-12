@@ -1,0 +1,74 @@
+.bandera {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+}
+ .ladoizq {
+    background-color: #020F59;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+ }
+
+ .ladoder {
+    background-color: #020F59;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;   
+    align-items: flex-end;
+}
+
+.blancoi {
+    background-color: #F2F2F2;
+    width: 93%;
+    height: 42%;
+    
+}
+.blancoaba {
+    background-color: #F2F2F2;
+    width: 93%;
+    height: 42%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.azuli {
+    background-color: #F22E3E;
+    width: 90%;
+    height: 87%;
+}
+
+.azulaba {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.blandarr {
+    background-color: #F2F2F2;
+    width: 92%;
+    height: 42%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.blaniaba{
+    background-color: #F2F2F2;
+    width: 92%;
+    height: 42%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+} 
+
+.azuld {
+    background-color: #F22E3E;
+    width: 96%;
+    height: 87%;
+}

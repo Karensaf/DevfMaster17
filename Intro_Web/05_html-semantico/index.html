@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Semantico</title>
+</head>
+<body>
+    <header>
+        <h1>Hipervinculos de navegación</h1>
+        <nav>
+            <ul>
+                <li><a href="#ejemplo">Inicio</a></li>
+                <li><a href="#info">Información</a></li>
+                <li><a href="#image">Imágen</a></li>
+                <li><a href="#web">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article id="ejemplo">
+                <h2>Nueva Escuela</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, debitis ut veritatis perspiciatis necessitatibus atque. Quasi doloribus, porro provident voluptatibus odio vel assumenda praesentium. Laudantium ex quo ducimus iusto vel!</p>
+            </article>
+            <aside>
+                <h3>¿Cómo se comporta el aside</h3>
+                <p>Pues se comporta así Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias velit perferendis unde temporibus, ipsam autem error, adipisci omnis consectetur, tempora perspiciatis neque incidunt! Porro deleniti quae facilis consectetur mollitia hic?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi accusantium harum itaque, eius a, qui vitae aliquam nulla repellendus veniam esse? Non tempora repellendus fuga, sequi saepe officia explicabo repudiandae?</p>
+
+            </aside>
+        </section>
+        <figure id="image">
+            <img src="https://media.vandalsports.com/i/640x360/2-2021/20212518520_1.jpg" alt="fig de interntes" width="400" height="400">
+            <figcaption>Esto es una figura</figcaption>
+            <img src="./img/Ironman.jpg" alt="Esta es una figura local" height="400" width="400">
+            <figcaption>Esto es una figura local</figcaption>
+        </figure>
+        <audio controls>
+            <source src="" type="audio/mp3">
+        </audio>
+        <video controls >
+            <source srcs="" type="audio/mp4">
+        </video>
+        <!-- la linea siguiente tiene un pdf de internet -->
+        <embed width="100%"  src="http://www.cuentosinfantilesadormir.com/lostrescerditos_ilustrado.pdf" type="">
+        <div id="info">
+            <iframe width="704" height="396" src="https://www.youtube.com/watch?v=ZAQwX_K2M-0" frameborder="0"></iframe>
+        </div>
+        <div id="web" class="phone">
+            <embed width="70%" height="396" src="https://taquitosoftware.com.mx/" >
+        </div>
+    </main>
+    <footer>Esto es un footer</footer>
+</body>
+</html>

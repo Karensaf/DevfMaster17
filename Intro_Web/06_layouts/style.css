@@ -1,0 +1,74 @@
+  
+.padre {
+    background-color: blue;
+    height: 500px;
+    width: 80%;
+}
+
+.hijo1 {
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    float: right;
+}
+
+.hijo2 {
+    background-color: red;
+    height: 350px;
+    width: 350px;
+    float: right;
+}
+
+.hijo3 {
+    background-color: magenta;
+    height: 250px;
+    width: 250px;
+    clear: right;
+}
+
+.hijo4 {
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    clear: right;
+}
+
+.madre {
+    background-color: darkcyan;
+    height: 500px;
+    width: 80%;
+}
+
+.hija1 {
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    position: static;
+}
+
+.hija2 {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    
+}
+
+.hija3 {
+    background-color: magenta;
+    height: 50px;
+    width: 50px;
+    
+}
+
+.hija4 {
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+}
+
+.hija5 {
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    position: sticky;
+}

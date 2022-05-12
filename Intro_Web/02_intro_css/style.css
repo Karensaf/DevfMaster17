@@ -1,0 +1,37 @@
+/* SELECTOR DE ETIQUETA */
+
+body {
+    background-color: #00ffff;
+
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+/* SELECTOR TIPO CLASE */
+
+.rojo {
+    color: red;
+}
+
+/* SELECTOR TIPO ID */
+
+#especial {
+    color: goldenrod;
+    font-size: 30px;
+    
+}
+
+img {
+    height: 300px;
+}
+
+a{
+    color: blueviolet;
+    font-size: 25px;
+    text-decoration: none;
+}
