@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+    font-size: 40px;
+}
+
+.grid-container {
+    background-color: #085e41;
+    width: 250px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cajas{
+    background-color: #b4b0ae;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#rojo{
+    background-color: red;
+}
+#amarillo{
+    background-color: yellow;
+}
+#verde{
+    background-color: #2ad12a;
+}

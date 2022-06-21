@@ -6,8 +6,11 @@ body {
 .grid-container {
     margin: 15px;
     display: grid;
-    grid-template-columns: auto auto auto;
-    /* column-gap: 20px; */
+    /* El auto divide las columnas depende de cuantos autos ponga en este caso 3 */
+             /* grid-template-columns: auto auto auto; */
+             grid-template-columns: 3fr 2fr 1fr;
+    /* las dos lineas siguientes son para dar espacios entre columnas y entre filas  */
+             /* column-gap: 20px; */
     /* row-gap: 20px; */
     gap: 20px;
     padding: 20px;
@@ -21,4 +24,65 @@ body {
     font-size: 30px;
     text-align: center;
     color: whitesmoke;
+}
+
+.grid-container-2 {
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 3fr 2fr 3fr;
+    height: 600px;
+    gap: 30px;
+    padding: 20px;
+    background-color: #184ade;
+    /* Justifica el contenido de nuestro contenedor HORIZONTALMENTE */
+    /* justify-items: end; */
+      /* se alinea hacia la izquierda */ 
+    /* justify-items: end;  ALINEA HACIA LA DERECHA */
+    /* justify-items: center;  ALINEA AL CENTRO */
+    /* justify-items: stretch;  ALINEA EN TODO EL ESPACIO */
+
+    /* Alinea el contenedor VERTICALMENTE */
+    /* align-items: flex-end; */
+    /* si usas la linea 38 y 45 lo colocas a la derecha hasta abajo */
+
+    /* Alinea y justifica en la misma linea de codigo */
+    place-items: center center;
+}
+
+.grid-item-2 {
+    background-color: rgb(173, 219, 230);
+    border: 2px solid #1d1d3c;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #2e3e6c;
+}
+
+.grid-container-3 {
+    margin: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    height: 300px;
+    /* padding: 20px; */
+    background-color: #568b0c;
+}
+
+.grid-item-3 {
+    /* background-color: #31f65c; */
+    /* border: 2px solid #035206; */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #0a0b04;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* JUSTIFICAMOS EL CONTENIDO  HORIZONTAL*/
+    /* justify-self: end; */
+    /* ALIENAMOS EL CONTENIDO VERTICAL */
+    /* align-self: flex-end; */
+    /* primero se acomoda VERTICALMENTE Y LUEGO HORIZONTALMENTE */
+    place-self: center flex-end;
 }

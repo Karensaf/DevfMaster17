@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    grid-area: header;
+    background-color: #00afb9;
+    color: #003049;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+.container{
+    display: grid;
+    grid-template-areas:
+    'header header header';
+    background-color: #fdfcdc;
+}

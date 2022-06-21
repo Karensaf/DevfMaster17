@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+    font-size: 40px;
+}
+
+.grid-container {
+    background-color: #085e41;
+    width: 80px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.circulos{
+    background-color: #ececec;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.stick {
+    width: 8px;
+    height: 250px;
+    background-color: #085e41;
+}
+/* #rojo{
+    background-color: red;
+}
+#amarillo{
+    background-color: yellow;
+}
+#verde{
+    background-color: #2ad12a;
+} */

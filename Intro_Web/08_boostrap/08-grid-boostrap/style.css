@@ -1,0 +1,15 @@
+.fila {
+    margin: 20px 0;
+    background-color: blueviolet;
+    border-color: black;
+}
+
+.fila2 {
+    margin: 20px 0;
+    background-color: pink;
+    border-color: black;
+}
+
+.col {
+    border: 2px solid red;
+}

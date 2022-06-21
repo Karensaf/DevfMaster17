@@ -1,6 +1,6 @@
   
 .padre {
-    background-color: blue;
+    background-color: aqua;
     height: 500px;
     width: 80%;
 }
@@ -9,7 +9,7 @@
     background-color: black;
     height: 250px;
     width: 250px;
-    float: right;
+    float: left;
 }
 
 .hijo2 {
@@ -21,49 +21,62 @@
 
 .hijo3 {
     background-color: magenta;
-    height: 250px;
-    width: 250px;
-    clear: right;
+    height: 450px;
+    width: 450px;
+    clear: both;
 }
 
 .hijo4 {
-    background-color: aqua;
+    background-color: #16a567;
     height: 50px;
     width: 50px;
-    clear: right;
+    clear: both;
 }
 
 .madre {
     background-color: darkcyan;
-    height: 500px;
-    width: 80%;
+    height: 700px;
+    width: 100%;
 }
 
 .hija1 {
     background-color: black;
     height: 50px;
     width: 50px;
+    /* Posicion estatica  */
     position: static;
+    top: 40px;
+    right: 10px;
 }
 
 .hija2 {
     background-color: red;
     height: 50px;
     width: 50px;
-    
+    position: relative;
+    /* Posicion relativa se acomoda a las medidas respetando a la anterior */
+    top: 20px;
+    left: 50px;
 }
 
 .hija3 {
     background-color: magenta;
     height: 50px;
     width: 50px;
-    
+    /*  Posicion absoluta se posiciona en todo el body  */
+    position: absolute;
+    top: 100px;
+    left: 100px;
 }
 
 .hija4 {
     background-color: aqua;
     height: 50px;
     width: 50px;
+    /* Posicion fixed se mantiene en el mismo lugar de la pantalla aunq baje o suba el cuersor */
+    position: fixed;
+    right: 100px;
+    bottom:100px;
 }
 
 .hija5 {
@@ -71,4 +84,6 @@
     height: 50px;
     width: 50px;
     position: sticky;
+    left: 300px;
+    bottom: 30px;
 }
