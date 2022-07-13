@@ -1,5 +1,8 @@
-
-
+/*
+1.-Solocitar los nombres completos de la familia separados po (,)
+2.-Convertir esos nombres a un arraye nombres de familia y mostrar en la consola.
+3.- Combinar los 2 arrays en uno solo y reordenarlo de atras hacia adelante.
+4.-Agregar las validaciones q creas necesarias*/
 let arrayReto1 = [];
 let arrayReto2 = [];
 let arrayReto3 = [];
@@ -24,8 +27,11 @@ console.log(arrayOrdenado);
 let arregloNombresPila = arrayReto1[0]+' , '.concat(arrayReto2[0]+' , ', arrayReto3[0]+' , ', arrayReto4[0]+' , ', arrayReto5[0]+' , ').split(' , ');
 console.log(arregloNombresPila); 
 
-arregloNombresPila.reverse();
-console.log(arregloNombresPila); 
+let arrayReversa = arregloNombresPila.reverse();
+console.log(arrayReversa); 
+
+arregloNombresPila.sort();
+console.log(arregloNombresPila);
 
 let todoJuntos = arregloNombresPila.concat(arregloNombresSeparados);
 console.log(todoJuntos);

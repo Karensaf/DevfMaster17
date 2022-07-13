@@ -20,7 +20,7 @@ anioNacimiento =  Number (prompt('Digita el año de tu nacimiento'));
 
 //q no hay NAN dentro
 
-if(isNaN(anioActual) || isNaN(anioNacimiento)) //si no es u numero ninguna de las dos entra al if, si no entra al esle
+if(nombreCompleto != '' || isNaN(anioActual) || isNaN(anioNacimiento)) //si no es u numero ninguna de las dos entra al if, si no entra al esle
 {
     resultado = 'Porfavor ingresa años validos';
 }

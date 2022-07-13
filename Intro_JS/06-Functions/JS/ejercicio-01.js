@@ -8,7 +8,7 @@ console.log(suma(5,2));
 console.log(suma(5,8));
 console.log(suma(23,64));
 
-//Laresta de dos valores
+//La resta de dos valores
 
 const resta = function (num1, num2){
     return num1 - num2;
@@ -41,3 +41,5 @@ const exponente = function (num1, num2){
     return num1 ** num2;
 };
 console.log(exponente(4,6));
+
+
